@@ -33,7 +33,7 @@ exit_unknown = []
 # Set up arguments
 parser = argparse.ArgumentParser(description='Check Hazelcast cluster statistics.')
 parser.add_argument("-H", "--host", type=str,
-                    help="FQDN for Mancenter host, i.e. bastion.load.hyperwallet.aws")
+                    help="FQDN for Mancenter host, i.e. localhost:8443")
 parser.add_argument("-n", "--nodes", type=str,
                     help="Expected number of Hazelcast nodes (default - 3)")
 parser.add_argument("-z", "--name", type=str,
